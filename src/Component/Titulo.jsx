@@ -1,7 +1,9 @@
-const Titulo = (props)=>{
+
+export default function Titulo (props){
     return(
-        <h6>{props.children}</h6>
+        <>
+            <h2>{props.title}</h2>
+            <h3>{props.subtitle}</h3>
+        </>
     )
 }
-
-export default Titulo
