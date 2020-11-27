@@ -1,11 +1,13 @@
-import ListaExterna from './Component/ListaExterna'
+import './Styles/global.css'
+import Routes from './Routes/Routes'
 
-function App(){
-  return(
-        <>
-            <ListaExterna/>
-        </>
+function App() {
+  return (
+    <div>      
+      <Routes/>    
+    </div>   
+
   )
 }
 
-export default ListaExterna
+export default App;
